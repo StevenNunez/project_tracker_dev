@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://StevenNunez:7b8c11e7e66ad18161d7270250901b932530d4e3@api.github.com/users/StevenNunez
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 12 Aug 2014 02:51:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4994'
+      X-Ratelimit-Reset:
+      - '1407814920'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Last-Modified:
+      - Tue, 12 Aug 2014 01:40:28 GMT
+      Etag:
+      - '"88cf64c9071ee71b940d6c04e28d5f86"'
+      X-Oauth-Scopes:
+      - read:org, read:repo_hook, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 43F30009:7B5C:39C71B2:53E98119
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 88d924ed861736d2749ce1a55766cb53
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA51UTY+bMBT8Kyufk/ARIMRS1Z567GW3l14iYxywamxkm6yy
+        Uf57x0BWCj2sEilS4PnNvPHg8YUo00hNKHn14iT0r0GLD7IisiZ0m+ZZma8I
+        OzHP7GGwCm2t972jUTQV3aaRvh2qwQnLjfZC+w03XTREE/j76VsKtsbOHIGW
+        pLvsyPZ5yaqS17s8zuusyvK0zHZxsc2LAoDFrF7OcyZyDHPRvd7Wd2qhcFI2
+        Iu57j0Yp8w6O5Za+GBN9AqFwepa6eY4EwEtkfCvgK7ZzDSZJ5x+WNIIuUfg7
+        yDrQOHwrK+pHZc0wiHrX0HOJrOjNyDdUjlvZe2n0w/LuwCAztmFafrCnyAB2
+        4AjCHhYyggAOZ/xxlyfUJeqtPDF+DrZYwYU8wefnGBdwEPpzLxCO3zgNwXXp
+        xYHVXYjmkSknVkSzLjRMZ/nlFlQc757pMxZ+KthqjX555a0xCiQVso0FPCnD
+        R8+nN9ExGbLsxshvdMj8jyYUQ1rQ3korWKUwbp5dSUOoHpRakX6olOSHyVBa
+        bD8r41EkNEtv4UDCCM3R8JkVQtP9inCQezjHfLgM4iRexzv83pKCxnuaFX+g
+        YOjru55sHZfrJH2LE5rFNC1Dz/g1YNM8eFvAROOZOtwWZo0J7rBwquvlAgC1
+        dH+RQNZgr/m+LFDiuB5YZSzzJmwAlV4xOHe5fQHXMRXsdT3jgCVpWpZx/B8Q
+        laWQ+Hr9Bwy/yUdxBQAA
+    http_version: 
+  recorded_at: Tue, 12 Aug 2014 02:51:04 GMT
+recorded_with: VCR 2.9.2
