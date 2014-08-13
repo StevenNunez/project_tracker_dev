@@ -10,7 +10,7 @@ Project Tracker will track projects and their collaborators. The steps take sect
 * Remove `.warnings` from `.rspec` files.
 * `rails g model project name github_url heroku_url`
 * `rails g model collaboration project:belongs_to collaborator:belongs_to`
-* `rails g model collaborator name github_url`
+* `rails g model collaborator name github_username`
 * `rake db:create db:migrate`
 * `rails g rspec:model project`
 * `rails g rspec:model collaboration`
